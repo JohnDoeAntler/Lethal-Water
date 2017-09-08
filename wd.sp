@@ -163,10 +163,7 @@ public Action:OnDetectedPlayer(Handle timer, int client)
 	if(health <= 0)
 	{
 		ForcePlayerSuicide(client);
-	}
-	
-	PrintToChatAll("%s", sDamage);
-	
+	}	
 	
 	if(!IsPlayerAlive(client))
 	{
